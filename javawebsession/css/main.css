@@ -1,0 +1,45 @@
+/*
+ * JavaWebSession Lesson
+ *
+ * CSSファイル
+ *
+ * ファイル名=main.css
+ * ディレクトリ=/javawebsession/css
+ */
+
+@charset "utf-8";
+
+#breadcrumbs {
+	margin-left: 0px;
+}
+#breadcrumbs ul {
+	padding-left: 0px;
+}
+#breadcrumbs ul li {
+	display: inline;
+	list-style-type: none;
+}
+#breadcrumbs ul .current {
+	color: red;
+}
+#breadcrumbs ul li:before {
+	content: " > ";
+}
+#breadcrumbs ul li:first-child:before {
+	content: none;
+}
+#errorMsg{
+	border: solid 1px orange;
+	color: red;
+	padding: 10px;
+	margin: 20px;
+	width: 400px;
+}
+.required {
+	color: red;
+	font-size: 12px;
+}
+.box {
+	border: solid green 1px;
+	padding: 10px;
+}
